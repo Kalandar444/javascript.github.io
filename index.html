@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dom navigation</title>
+  <style>
+    body{
+      margin:0;
+    }
+    #box{
+      background: pink;
+      width:300px;
+      height: 300px;
+      margin-top: 100px;
+      margin-left: 50px;
+      border:1px solid #000;
+    }
+  </style>
+</head>
+
+<body>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
+    nostrum doloremque nisi, ullam harum distinctio. Id obcaecati iusto ad corporis natus.</p>
+<div id="box">
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsum aperiam rem aspernatur ipsam debitis sit autem laudantium! Quibusdam quo fugiat rerum voluptate quas debitis natus, soluta iure maxime, modi ea aspernatur fuga accusantium sed facilis culpa dolor aliquam ut
+  eaque doloremque nihil possimus distinctio excepturi! Commodi, delectus dolorum. Eum.
+</div>
+<script>
+  var box=document.querySelector("#box");
+  console.log("Box offsetTop:"+box.offsetTop);
+   console.log("Box offsetLeft:" + box.offsetLeft);
+</script>
+  </body>
+</html>
